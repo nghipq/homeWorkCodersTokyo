@@ -3,6 +3,12 @@
     line-height: 1.8
 }
 
+.st {
+    flex-flow: row;
+    display: flex;
+    align-items: center
+}
+
 ul {
     list-style-type: none;
 }
@@ -111,9 +117,12 @@ a {
 .main .container-2 .component {
     align-items: flex-start;
     width: 350px;
-    margin-left: 50px;
     font-size: 18px;
     transition: all 0.3s
+}
+
+.main .container-2 .st .component {
+    margin-left: 70px;
 }
 
 .main .container-2 .component:hover {
@@ -216,7 +225,7 @@ a {
 
 .footer .container .content-2 {
     width: 300px;
-    margin-top: 87px;
+    margin-top: 27px;
     justify-content: flex-start;
     align-items: flex-start;
     margin-left: 50px;
