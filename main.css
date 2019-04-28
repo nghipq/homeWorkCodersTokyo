@@ -56,6 +56,14 @@ a {
     margin-left: 50px
 }
 
+.header .menu {
+    position: relative
+}
+
+.header .menu .active{
+    display: none
+}
+
 .header .list {
     margin-right: 20px
 }
@@ -119,10 +127,6 @@ a {
     width: 350px;
     font-size: 18px;
     transition: all 0.3s
-}
-
-.main .container-2 .st .component {
-    margin-left: 70px;
 }
 
 .main .container-2 .component:hover {

@@ -22,10 +22,6 @@
         grid-template-columns: none
     }
 
-    .main .container-2 .st .component {
-        margin-left: 0
-    }
-
     .main .container-2 .component:hover {
         transform: scale(1.1)
     }
